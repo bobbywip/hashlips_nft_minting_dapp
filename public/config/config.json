@@ -2,9 +2,9 @@
   "CONTRACT_ADDRESS": "0x76abe67ebc09a83c7db9676801f5a592571c832e",
   "SCAN_LINK": "https://goerli.etherscan.io/address/0x76abe67ebc09a83c7db9676801f5a592571c832e",
   "NETWORK": {
-    "NAME": "Ethereum",
-    "SYMBOL": "ETH",
-    "ID": 1
+    "NAME": "",
+    "SYMBOL": "",
+    "ID": 5
   },
   "NFT_NAME": "REU NFT",
   "SYMBOL": "REU",
