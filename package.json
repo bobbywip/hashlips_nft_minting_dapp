@@ -1,7 +1,7 @@
 {
-  "name": "hashlips_nft_minting_dapp",
+  "name": "reu_nft_earth_dao",
   "version": "1.0.0",
-  "description": "HashLips minting dapp is a quick and easy way to connect your smart contract and start minting NFTs.",
+  "description": "REU NFT Is bringing voting power to the holders with the creation of the Earth Dao!",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
@@ -15,7 +15,7 @@
     "web3": "^1.5.1",
     "web3-eth-contract": "^1.5.2"
   },
-  "author": "Daniel Eugene Botha (HashLips)",
+  "author": "benyy.eth",
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
