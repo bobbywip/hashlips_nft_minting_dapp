@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x8c2011f00d279613524a5190abaf15932bd8af32",
-  "SCAN_LINK": "https://goerli.etherscan.io/address/0x8c2011f00d279613524a5190abaf15932bd8af32",
+  "CONTRACT_ADDRESS": "0xaaa097f1b7e9886b7c05e0eb3d13ca0704417fe8",
+  "SCAN_LINK": "https://goerli.etherscan.io/address/0xaaa097f1b7e9886b7c05e0eb3d13ca0704417fe8",
   "NETWORK": {
     "NAME": "ETH",
     "SYMBOL": "ETH",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0.035,
   "GAS_LIMIT": 350000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/assets/goerli/0x8c2011f00d279613524a5190abaf15932bd8af32",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/assets/goerli/0xaaa097f1b7e9886b7c05e0eb3d13ca0704417fe8",
   "SHOW_BACKGROUND": true
 }
