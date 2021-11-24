@@ -6,12 +6,12 @@
     "SYMBOL": "ETH",
     "ID": 5
   },
-  "NFT_NAME": "REU NFT",
+  "NFT_NAME": "REUNFT",
   "SYMBOL": "REU",
   "MAX_SUPPLY": 1000,
   "WEI_COST": 75000000000000000,
   "DISPLAY_COST": 0.035,
-  "GAS_LIMIT": 285000,
+  "GAS_LIMIT": 3000000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/assets/goerli/0x76abe67ebc09a83c7db9676801f5a592571c832e",
   "SHOW_BACKGROUND": true
