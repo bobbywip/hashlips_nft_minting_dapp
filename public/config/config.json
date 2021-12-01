@@ -9,9 +9,9 @@
   "NFT_NAME": "REUNFT",
   "SYMBOL": "REU",
   "MAX_SUPPLY": 500,
-  "WEI_COST": 35000000000000000,
+  "WEI_COST": 70000000000000000,
   "DISPLAY_COST": 0.069,
-  "GAS_LIMIT": 350000,
+  "GAS_LIMIT": 700000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/assets/goerli/0x8cc335c4a093b2f227d2c0cfc682af4a1eede476",
   "SHOW_BACKGROUND": true
