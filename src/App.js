@@ -132,7 +132,7 @@ function App() {
     blockchain.smartContract.methods
       .safeMint(blockchain.account, mintAmount)
       .send({
-        gasLimit: String(totalGasLimit),
+        gasLimit: String(totalGasLimit * mintAmount),
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
         value: totalCostWei,
