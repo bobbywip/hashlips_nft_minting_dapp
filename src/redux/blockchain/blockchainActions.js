@@ -31,6 +31,7 @@ const updateAccountRequest = (payload) => {
   };
 };
 
+
 export const connect = () => {
   return async (dispatch) => {
     dispatch(connectRequest());
@@ -47,9 +48,12 @@ export const connect = () => {
         Accept: "application/json",
       },
     });
+
     const CONFIG = await configResponse.json();
-    const { ethereum } = window;
+    //const { ethereum } = window;
+    const ethereum = window.ethereum;
     const metamaskIsInstalled = ethereum && ethereum.isMetaMask;
+
     if (metamaskIsInstalled) {
       Web3EthContract.setProvider(ethereum);
       let web3 = new Web3(ethereum);
@@ -72,6 +76,8 @@ export const connect = () => {
               web3: web3,
             })
           );
+
+          
           // Add listeners start
           ethereum.on("accountsChanged", (accounts) => {
             dispatch(updateAccount(accounts[0]));
